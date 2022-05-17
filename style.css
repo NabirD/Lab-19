@@ -1,0 +1,43 @@
+.wow {
+  width: 100px;
+}
+
+body{
+  background-color:#AAABB8; /*Test color*/
+  color: #3b3b3b;
+}
+
+.topnav{background-color:#252740;
+  overflow: hidden; /*Change the color to match background*/
+  }
+
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+* {
+  font-family: 'Neuton', serif;
+  font-size: 55px;
+  color: #000000
+}
+
+h3{
+  border: 4px dashed #ffffff;
+  border-radius: 30px
+  color: #000000552;
+  font-size: 25px;
+  
+}
+
+h2{
+    font-size: 35px;
+}

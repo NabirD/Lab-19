@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Lab 19 </title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <center>
+  <div class="topnav"> 
+<a href="https://webportfolio2021.nabirdehan.repl.co/"> My Portfolio </a>
+  <a href="https://lab-19-wd89-7.wd89.repl.co/">Home</a>  
+  </div>
+    
+  <h1>Lab Rollovers By Nabir Dehan</h1>
+  <hr>
+    
+    <h2>HTML Hoverover</h2>
+    
+    <img src="job.png" width="250" 
+      onmouseover="this.src='cash.png';"
+      onmouseout="this.src='job.png';">
+  </img>
+    <!--Hoverover Code Above-->
+
+    
+    <h3>This hoverover is created with only HTML. When you hover over it, the image changes.</h3>
+    <hr>
+  <table width="1000">
+    <tr>
+      <h2>JavaScript Rollover</h2>
+      
+      <img src="birds.png" width="300" name="r1"/>
+      
+      <td align="center">
+      <img src="birds.png" width="100"
+      onmouseover="document.r1.src=pic1.src;"/>
+        </td>
+      <td>
+        <img src="car.webp" width="100"
+          onmouseover="document.r1.src=pic2.src;"/>
+      </td>
+      <td>
+         <img src="house.png" width="100"
+          onmouseover="document.r1.src=pic3.src;"/>
+      </td>
+      <td>
+         <img src="healthy.webp" width="100"
+          onmouseover="document.r1.src=pic4.src;"/>
+      </td>
+      <td>
+         <img src="freetime.png" width="100"
+          onmouseover="document.r1.src=pic5.src;"/>
+      </td>
+    </tr>
+  </table>
+  </div>
+  
+  <script>
+    if(document.images){
+      pic1=new Image();
+      pic2=new Image();
+      pic3=new Image();
+      pic4=new Image();
+      pic5=new Image();
+      pic1.src='birds.png'
+      pic2.src='car.webp'
+      pic3.src='house.png'
+      pic4.src='healthy.webp'
+      pic5.src='freetime.png'
+    }
+  </script>
+  
+<h3> This hoverover is created with HTML and JavaScript. When you hover over the smaller images, that image you have your mouse on is the image that shows as the main image on top.</h3>
+<hr>
+    
+<div></div>
+</body>
+</center>
+</html>
